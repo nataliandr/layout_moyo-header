@@ -47,11 +47,11 @@ body {
 }
 
 .nav__link:hover,
-.is-active {
+.nav__link.is-active {
   color: #00acdc;
 }
 
-.is-active::after {
+.nav__link.is-active::after {
   content: '';
   background-color: #00acdc;
   border-radius: 2px;
